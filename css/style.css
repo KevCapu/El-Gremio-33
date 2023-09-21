@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,900;1,200&display=swap');
+
+
+/*!-----------RESET------------*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+/*!-----------HEADER------------*/
+
+header{
+    background-image: url("../img/fondo\ 1.webp");
+    color: #ffffff;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 60px;
+    margin-left: 10px;
+    text-shadow: 3px 5px 5px rgba(0,0,0,0.83);
+}
+
+header section a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.techo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-decoration: none;
+font-size: large;
+}
+
+.buscar{
+    text-align:center;
+}
+
+.user{
+    text-align: right;
+    padding: 15px;
+}
+.user ul li a {
+    color: rgb(244, 246, 246);
+}
+
+header nav ul {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    background-color: black;
+}
+
+header nav ul li a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    list-style:lower-roman;
+    font-style:normal;
+    font: weight 200px;
+    font-size: larger;
+    
+}
+
+.nav1 a:hover{
+    color: #f7b538;
+}
+
+/*!-----------MAIN------------*/
+.tutoriales div{
+    background-color: #f7b538;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: #030303 solid 6px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.tutoriales h3{
+    padding: 5px;
+    background-color: #030303;
+    color: #dfd7d7;
+}
+.tutoriales div p{
+    font-size:x-large;
+    padding: 20px;
+}
+
+.tutoriales div iframe{
+    width: 400px;
+    height: 200px;
+    border: #030303 solid 6px;
+}
+
+.d-md-block h5{
+    color: #030303;
+    font-size: large;
+}
+
+section h2{
+    font-size: 40px;
+    background-color: #030303;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+.grid-lista{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    gap: 15px;
+}
+
+.grid-lista div img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+}
+
+.grid-item{
+    position: relative;
+}
+
+.grid-item h3{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.621);
+    color: #dfd7d7;
+    width: 98%;
+    padding: 5px;
+}
+
+.noticias{
+    background-color: #f7b538;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.noticias div img{
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.noticias h3{
+    color: black;
+    font-size:40px;
+    margin: 10px;
+}
+
+
+
+/*!-----------FOOTER------------*/
+footer{
+    text-align: right;
+    background-color: #FF1B1C;}
+
+.parrafoF p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.redes div img{
+    height: 50px;
+    padding: 8px;
+}
+
+footer h2{
+    padding: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+/*!-----Media Query ------*/
+
+@media screen and (max-width:900px){
+    .grid-lista{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .noticias{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:855px){
+    .techo{
+        flex-direction: column;
+    }
+    .user{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px){
+    .grid-lista{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        position: static;
+    }
+    header h1{
+        font-size: 45px;
+    }
+}
