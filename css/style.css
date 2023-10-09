@@ -54,10 +54,6 @@ header nav img{
     border: #030303 solid 6px;
 }
 
-.d-md-block h5{
-    color: #030303;
-    font-size: large;
-}
 
 section h2{
     font-size: 40px;
@@ -110,6 +106,12 @@ section h2{
     width: 400px;
     height: 200px;
     object-fit: contain;
+}
+
+.noticias div p{
+    font-size: larger;
+    font-style: oblique;
+    
 }
 
 

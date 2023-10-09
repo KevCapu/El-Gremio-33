@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,900;1,200&display=swap');
+
+/*!-----------RESET------------*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*!--------BOOTSTRAP--------*/
+
+.container-fluid{
+                    a{
+                        img{
+                            width: 75px;
+                            height: 75px;
+                        }
+                    }
+                }
+.navbar-nav{
+            .nav-link{
+                        &:hover{
+                                color: #EFCA08 !important
+                            }
+                    }
+            }
+
+.juegos div .card:hover{
+                        transform: scale(1.1);
+}
+

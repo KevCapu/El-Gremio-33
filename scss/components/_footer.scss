@@ -1,0 +1,29 @@
+/*!-----------FOOTER------------*/
+
+footer{
+    background-color: #087F8C;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 50px;
+    .gremiof{
+        color: #303030;
+        text-decoration:wavy;
+        margin-left: 10px;
+        padding: 30px
+    }
+    .contactosf{
+        color:#303030;
+        margin-right: 30px;
+        text-align: end;
+    }
+    .redes{
+        div{    
+            display: flex;
+            justify-content: end;
+            img{
+                height: 50px;
+                padding: 8px;
+            }
+        }
+    }
+}

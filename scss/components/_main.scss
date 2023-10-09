@@ -1,0 +1,271 @@
+/*!-----------MAIN------------*/
+
+/*!----------INDEX------------*/
+section{
+    h2{
+        color: #EFCA08;
+        text-align: center;
+        font-size: 50px;
+        background-color: #000000;
+        padding: 0.5rem;
+        margin: 0%;
+    }
+    .grid-lista{
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 300px;
+            gap: 15px;
+            div{
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+                }
+                h3{
+                    position: absolute;
+                    bottom: 0%;
+                    background-color: rgba(0, 0, 0, 0.76);
+                    color: #dfd7d7;
+                    width: 100%;
+                    padding: 5px;
+                    margin: 0%;
+                }
+            }
+    }
+}
+
+.noticias{    
+    background-color: #EFCA08;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    h2{
+        color: rgb(255, 255, 255);
+        font-size:40px;
+        background-color: #030303;
+        padding: 0.5rem;
+        margin: 0%;
+    }
+    div{
+        img{
+            padding: 10px;
+            width: 400px;
+            height: 200px;
+            object-fit: contain;
+        }
+        p{
+            color:black;
+            font-size: larger;
+            font-style: oblique;
+        }
+    }
+}
+
+/*!----------TUTORIALES--------*/
+
+.tutoriales{
+        h3{
+            font-size: 40px;
+            background-color: #030303;
+            color: #dfd7d7;
+            padding: 10px;
+            margin: 0%;
+        }
+        div{
+            background-color: #f8d007;
+            display: flex;
+            width: 100%;
+            gap: 10px;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: #030303 solid 6px;
+            padding: 5px;
+            flex-wrap: wrap;
+            p{
+                font-size:x-large;
+                padding: 20px;
+            }
+            iframe{
+                    width: 400px;
+                    height: 200px;
+                    border: #030303 solid 6px;
+                }
+        }
+}
+
+
+/*!---------JUEGOS------*/
+
+.juegos{       
+    h3{
+        font-size: 40px;
+        background-color: #030303;
+        color: #dfd7d7;
+        margin: 0%;
+        padding: 0.5rem;
+    }
+    div{
+        padding: 10px;
+        background-color: #EFCA08;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        transition: 0.5s;
+        .card{
+            background-color: #000000;
+            width: 370px;
+            height: auto;
+            img{
+                height: 440px;
+            }
+            div{
+                background-color: #DCEDFF;
+                h5{
+                    font-size:xx-large;
+                    text-decoration: underline black;
+                }
+                p{
+                    color: #000000;
+                    font-size: large;
+                }
+                .card-text{
+                    color: #090909;
+                }
+            }
+        }
+    }
+}
+
+/*!--------REGISTRO------*/
+
+section{
+    .formulario{
+        background-image: url("/img/Formularioinvertido.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        form{
+            text-align: center;
+            div{
+                
+                h3{
+                    font-size: 60px;
+                    padding: 10px;
+                    text-decoration: underline;
+                    color: #392201;
+                    font-family: fantasy;
+                    
+                }
+                label{ 
+                    padding: 10px;
+                    font-size:40px;
+                    color: #ffffff;
+                }
+                #nombre{
+                    
+                    border: solid 4px #251501;
+                    margin-left: 183px;
+                }
+                #apellido{
+                    border: solid 4px #251501;
+                    margin-left: 187px;
+                }
+                #correo{
+                    border: solid 4px #251501;
+                    margin-left: 210px;
+                }
+                #masculino{
+                    margin-left: 100px;
+                }
+                #femenino{
+                    
+                    margin-left: 102px;
+                }
+                #otros{
+                    
+                    margin-left: 138px;
+                }
+                #usuario{
+                    border: solid 4px #251501;
+                    margin-left: 192px;
+                }
+                #contraseña{
+                    border: solid 4px #251501;
+                    margin-left: 130px;
+                }
+                #repita{
+                    border: solid 4px #251501;
+                    margin-left: 16px;
+                }
+                textarea{
+                    border: solid 2px #251501;
+                    
+                }
+                a{
+                    color: #dfd7d7;
+                    font-size: 30px;
+                    margin-left: 550px;
+                }
+            }
+            .enviar{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+/*!----------PROGRAMAS--------*/
+.programas{
+    h3{
+        font-size: 40px;
+        background-color: #030303;
+        color: #dfd7d7;
+        margin: 0%;
+        padding: 0.5rem;
+    }
+}
+
+.utiles{
+    h3{
+        font-size: 40px;
+    background-color: #030303;
+    color: #dfd7d7;
+    margin: 0%;
+    padding: 0.5rem;
+    }
+    .software{
+        padding: 20px;
+        margin: 0%;
+        background-color: #EFCA08;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 450px;
+        gap: 15px;
+        div{
+            img{
+                align-items: center;
+                margin-left: 10px;
+                width: 400px;
+                height: 250px;
+            }
+            h4{
+                font-size: 50px;
+                margin-left: 10px;
+            }
+            p{
+                
+                font-size: 30px;
+                margin-left: 10px;
+            }
+        }
+    }
+    
+}

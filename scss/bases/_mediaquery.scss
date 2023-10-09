@@ -1,0 +1,117 @@
+/*!-----MEDIA QUERY------*/
+
+/*!-------- INDEX---------*/
+
+@media screen and (max-width:900px){
+    section .grid-lista{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .noticias{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    section .grid-lista{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 620px){
+    footer .gremiof {
+        text-align: start;
+        margin:0% ;
+    }
+}
+
+@media screen and (max-width: 590px){
+    footer .gremiof {
+        padding: 25px;
+        font-size: 23px;
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    footer .gremiof {
+        margin: 0%;
+        text-align: left;
+    }
+}
+
+/*!------- REGISTRO --------*/
+@media screen and (max-width: 675px){
+    section{
+        .formulario{
+            form{
+                div{
+                    a{
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 513px){
+    section{
+        .formulario{
+            form{
+                div{
+                    h3{
+                        padding: 2px;
+                        font-size: 40px;
+                    }
+                    label{
+                        padding: 7px;
+                        font-size: 25px;
+                    }
+                    #nombre{
+                        margin-left: 75px;
+                    }
+                    #apellido{
+                        margin-left: 75px;
+                        
+                    }
+                    #correo{
+                        margin-left: 93px;
+                    }
+                    #usuario{
+                        margin-left: 109px;
+                    }
+                    #contraseña{
+                        margin-left: 71px;
+                    }
+                    #repita{
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*-------PROGRAMAS------*/
+
+@media screen and (max-width: 1318px){
+    .utiles{
+        .software{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 858px){
+    .utiles{
+        .software{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
