@@ -10,7 +10,7 @@ section {
 }
 
 section {
-    h2 {
+    h1 {
         font-weight: map-get($secciones, letra);
         color: map-get($secciones, color-texto);
         text-align: map-get($secciones, posicion);
@@ -40,7 +40,7 @@ section {
                 -moz-box-shadow: 10px 10px 7px -5px rgba(0, 0, 0, 0.75);
             }
 
-            h3 {
+            h2 {
                 position: absolute;
                 bottom: 0%;
                 background-color: $color-principal;
@@ -91,7 +91,7 @@ section {
 /*!----------TUTORIALES--------*/
 
 .tutoriales {
-    h3 {
+    h2 {
         font-size: 40px;
         background-color: $color-principal;
         color: $color-secundario;
@@ -126,7 +126,7 @@ section {
 /*!---------JUEGOS------*/
 
 .juegos {
-    h3 {
+    h2 {
         font-size: 40px;
         background-color: #030303;
         color: #dfd7d7;
@@ -186,7 +186,7 @@ section {
 
             div {
 
-                h3 {
+                h2 {
                     font-size: 60px;
                     padding: 10px;
                     text-decoration: underline;
@@ -267,8 +267,8 @@ section {
 
 /*!----------PROGRAMAS--------*/
 .programas {
-    h3 {
-        font-size: 40px;
+    h2 {
+        font-size: 35px;
         background-color: $color-principal;
         color: $color-secundario;
         margin: 0%;
@@ -277,7 +277,7 @@ section {
 }
 
 .utiles {
-    h3 {
+    h2 {
         font-size: 40px;
         background-color: $color-principal;
         color: $color-secundario;
@@ -304,7 +304,7 @@ section {
                 padding: 10px;
             }
 
-            h4 {
+            h3 {
                 font-weight: bold;
                 font-size: 30px;
                 margin-left: 10px;

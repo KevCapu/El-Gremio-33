@@ -29,7 +29,7 @@ body {
 section .call img {
   width: 100%; }
 
-section h2 {
+section h1 {
   font-weight: bold;
   color: #EFCA08;
   text-align: center;
@@ -54,7 +54,7 @@ section .grid-lista {
       box-shadow: 10px 10px 7px -5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 7px -5px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 7px -5px rgba(0, 0, 0, 0.75); }
-    section .grid-lista div h3 {
+    section .grid-lista div h2 {
       position: absolute;
       bottom: 0%;
       background-color: #020202;
@@ -89,7 +89,7 @@ section .grid-lista {
     font-style: oblique; }
 
 /*!----------TUTORIALES--------*/
-.tutoriales h3 {
+.tutoriales h2 {
   font-size: 40px;
   background-color: #020202;
   color: white;
@@ -117,7 +117,7 @@ section .grid-lista {
     border: #030303 solid 6px; }
 
 /*!---------JUEGOS------*/
-.juegos h3 {
+.juegos h2 {
   font-size: 40px;
   background-color: #030303;
   color: #dfd7d7;
@@ -156,7 +156,7 @@ section .formulario {
   background-repeat: no-repeat; }
   section .formulario form {
     text-align: center; }
-    section .formulario form div h3 {
+    section .formulario form div h2 {
       font-size: 60px;
       padding: 10px;
       text-decoration: underline;
@@ -200,14 +200,14 @@ section .formulario {
       font-size: 20px; }
 
 /*!----------PROGRAMAS--------*/
-.programas h3 {
-  font-size: 40px;
+.programas h2 {
+  font-size: 35px;
   background-color: #020202;
   color: white;
   margin: 0%;
   padding: 0.5rem; }
 
-.utiles h3 {
+.utiles h2 {
   font-size: 40px;
   background-color: #020202;
   color: white;
@@ -229,7 +229,7 @@ section .formulario {
     width: 400px;
     height: 250px;
     padding: 10px; }
-  .utiles .software div h4 {
+  .utiles .software div h3 {
     font-weight: bold;
     font-size: 30px;
     margin-left: 10px; }
@@ -307,7 +307,7 @@ footer {
     margin-left: 0px; } }
 
 @media screen and (max-width: 513px) {
-  section .formulario form div h3 {
+  section .formulario form div h2 {
     padding: 2px;
     font-size: 40px; }
   section .formulario form div label {
@@ -327,7 +327,7 @@ footer {
     margin-left: 0px; } }
 
 @media screen and (max-width: 513px) {
-  section .formulario form div h3 {
+  section .formulario form div h2 {
     padding: 2px;
     font-size: 40px; }
   section .formulario form div label {
