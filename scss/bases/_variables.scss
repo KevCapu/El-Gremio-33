@@ -1,0 +1,47 @@
+//!  VARIABLES
+
+$color-principal:  #020202;
+$color-secundario:  rgb(255, 255, 255);
+$color-terceario: #EFCA08;
+
+//!  LISTAS
+
+$colores:red,blue,green,392201,
+251501,black,#DCEDFF;
+
+$padding: 5px, 10px, 15px, 20px;
+
+
+//! MAPAS
+
+$secciones:(
+    fondo:#020202,
+    color-texto:#EFCA08,
+    posicion: center,
+    letra: bold,
+    margen:0%,
+    separacion:0.5rem,
+    tamaño:50px,
+);
+
+//! EXTENDS
+
+%flex-center{
+    display:flex;
+    justify-content: center;
+    align-items:start;
+}
+
+// !MIXINS
+
+@mixin flex( $flex, $aling, $wrap, $justify){
+    display: $flex;
+    align-items: $aling;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+}
+
+
+
+
+
